@@ -14,6 +14,9 @@
 		F48863ED2A24CD0300E3A24D /* DreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48863EC2A24CD0300E3A24D /* DreamTests.swift */; };
 		F48863F72A24CD0300E3A24D /* DreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48863F62A24CD0300E3A24D /* DreamUITests.swift */; };
 		F48863F92A24CD0300E3A24D /* DreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48863F82A24CD0300E3A24D /* DreamUITestsLaunchTests.swift */; };
+		F48864062A24D0F600E3A24D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48864052A24D0F600E3A24D /* WelcomeView.swift */; };
+		F48864082A24D45500E3A24D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48864072A24D45500E3A24D /* LibraryView.swift */; };
+		F488640A2A24D46E00E3A24D /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48864092A24D46E00E3A24D /* ReadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		F48863F22A24CD0300E3A24D /* DreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48863F62A24CD0300E3A24D /* DreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamUITests.swift; sourceTree = "<group>"; };
 		F48863F82A24CD0300E3A24D /* DreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F48864052A24D0F600E3A24D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F48864072A24D45500E3A24D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		F48864092A24D46E00E3A24D /* ReadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				F48863DA2A24CD0200E3A24D /* DreamApp.swift */,
 				F48863DC2A24CD0200E3A24D /* ContentView.swift */,
+				F48864052A24D0F600E3A24D /* WelcomeView.swift */,
+				F48864072A24D45500E3A24D /* LibraryView.swift */,
+				F48864092A24D46E00E3A24D /* ReadView.swift */,
 				F48863DE2A24CD0300E3A24D /* Assets.xcassets */,
 				F48863E02A24CD0300E3A24D /* Dream.entitlements */,
 				F48863E12A24CD0300E3A24D /* Preview Content */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F48863DD2A24CD0200E3A24D /* ContentView.swift in Sources */,
+				F48864082A24D45500E3A24D /* LibraryView.swift in Sources */,
+				F488640A2A24D46E00E3A24D /* ReadView.swift in Sources */,
 				F48863DB2A24CD0200E3A24D /* DreamApp.swift in Sources */,
+				F48864062A24D0F600E3A24D /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
