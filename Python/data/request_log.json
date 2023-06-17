@@ -1,0 +1,72 @@
+[
+    {
+        "prompt_tokens": 947,
+        "completion_tokens": 592,
+        "total_tokens": 1539,
+        "completion_cost": 0.001184,
+        "prompt_cost": 0.0014205,
+        "cost": 0.0026045,
+        "datetime": "16/06/2023 18:05:38",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 947,
+        "completion_tokens": 363,
+        "total_tokens": 1310,
+        "completion_cost": 0.000726,
+        "prompt_cost": 0.0014205,
+        "cost": 0.0021465,
+        "datetime": "16/06/2023 18:05:51",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 947,
+        "completion_tokens": 617,
+        "total_tokens": 1564,
+        "completion_cost": 0.001234,
+        "prompt_cost": 0.0014205,
+        "cost": 0.0026545,
+        "datetime": "16/06/2023 18:06:12",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 947,
+        "completion_tokens": 495,
+        "total_tokens": 1442,
+        "completion_cost": 0.00099,
+        "prompt_cost": 0.0014205,
+        "cost": 0.0024105000000000003,
+        "datetime": "16/06/2023 18:06:30",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 947,
+        "completion_tokens": 491,
+        "total_tokens": 1438,
+        "completion_cost": 0.000982,
+        "prompt_cost": 0.0014205,
+        "cost": 0.0024025,
+        "datetime": "16/06/2023 18:06:47",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 949,
+        "completion_tokens": 373,
+        "total_tokens": 1322,
+        "completion_cost": 0.000746,
+        "prompt_cost": 0.0014235,
+        "cost": 0.0021695,
+        "datetime": "16/06/2023 18:07:01",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 947,
+        "completion_tokens": 590,
+        "total_tokens": 1537,
+        "completion_cost": 0.0011799999999999998,
+        "prompt_cost": 0.0014205,
+        "cost": 0.0026005,
+        "datetime": "16/06/2023 18:07:21",
+        "description": "grow_seed_point"
+    }
+]

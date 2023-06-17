@@ -1,0 +1,32 @@
+{
+    "grow_seed": {
+        "name": "grow_seed",
+        "description" : "takes the primary details of a seed (genre, setting, plot, characters, point of view, themes, tone and style, and structure) and articulates it further",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "seedling": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "description": "A description of a primary detail of the seed"
+                    }
+                }
+            }
+        }
+    }, 
+
+    "user_happy" : {
+        "name": "user_happy",
+        "description" : "if user is happy with the seed, then the seed is ready to be planted, otherwise edits are required",
+        "parameters" : {
+            "type": "object",
+            "properties": {
+                "happy": {
+                    "type": "boolean",
+                    "description": "whether the user is happy with the seed"
+                }
+            }
+        }
+    }
+}

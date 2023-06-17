@@ -1,0 +1,30 @@
+{
+    "base":
+    [
+        {
+            "role": "user",
+            "content": "I am an enthusiastic reader, you are a best-selling author, and you are writing the novel that I want to read!"
+        },
+        {
+            "role": "assistant",
+            "content": "I am happy to be writing a brilliant novel for you. I will try make it the best of my work! A great novel becomes great due to a combination of various elements, each contributing in its own way to the overall impact of the narrative. Here are a few key aspects that make a novel great:\n1. Storytelling: Great novel usually tell compelling stories that captivate readers, keeping them hooked from the first page to the last. The story unfolds in a way that is engaging, suspenseful, and satisfying. The best stories often contain unexpected twists and turns, but also pay off in a way that is emotionally satisfying and meaningful.\n2. Characters: Characters are the heart of any great novel. They need to be well-developed, relatable, and complex. Readers should care about what happens to them. Whether they are likable or not, they must be interesting and have depth. The protagonists should have struggles and weaknesses, as well as virtues and triumphs. The characters should also develop throughout the narrative.\n3. Writing Style: A great novel often has a unique writing style that is both beautiful and effective. This could involve poetic and descriptive language, a distinctive voice, crisp and clear prose, or a unique structure. The writing should evoke emotions and help the reader visualize the story. It is very important that the story is shown and not told.\n4. Themes: Great novels usually tackle important themes or ideas, giving readers something to think about long after they've finished reading. This could involve deep questions about human nature, society, philosophy, or morality.\n5. Originality/Novelty: A great novel brings something new to the table. It could be an original story concept, a unique setting, a fresh perspective, or an innovative structure or style. It is key that a novel presents the reader a deep and truthful narrative that provokes responses of curiosity, awe, meaning and humility.\n6. Emotional Impact: A great book makes the reader feel something. It could be joy, sadness, fear, anticipation, or any number of other emotions. The key is that it engages the reader on an emotional level.\n7. Universal Appeal: While not all great novels appeal to everyone, the best ones tend to have a certain universal quality. They contain truths or experiences that resonate with many different people, regardless of their background or life experiences. Think of canonical texts, such as the bible, as examples of this."
+        }
+    ],
+
+    "generate_seed":
+    [
+        {
+            "role": "user",
+            "content" : "I am an enthusiastic reader, and you are a best-selling author."
+        },
+        {
+            "role": "assistant",
+            "content": "I am excited to help produce a 'seed' of a novel with you in the following format.\nGenre:'', Setting: '', Plot: '', Characters: protaganist: '', antagonist: '', supporting characters: '', point of view: '', themes: '', tone and style '', structure: ''. Tell me your ideas, and I'll fill in the blanks!"
+        }
+    ],
+
+    "grow_seed":
+    [
+        {}
+    ]
+}

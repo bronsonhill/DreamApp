@@ -1,0 +1,21 @@
+{
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "As the young girl stumbled through the dark forest, her heart pounding with fear, she realized she was being pursued by something. She didn't know what it was, but she could feel its malevolent presence getting closer with each passing moment. She had to get away, or risk becoming its prey. But just as she was about to give up hope, she stumbled upon an ancient totem pole that pulsed with a strange energy. Without hesitation, she reached out her hand and touched it. Suddenly, a blinding white light enveloped her, and she felt herself being transported to another world.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1686378570,
+    "id": "chatcmpl-7PmOIadzAuPD9JqqyH4AG2occtppq",
+    "model": "gpt-3.5-turbo-0301",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 120,
+      "prompt_tokens": 432,
+      "total_tokens": 552
+    }
+  }
