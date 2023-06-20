@@ -68,5 +68,605 @@
         "cost": 0.0026005,
         "datetime": "16/06/2023 18:07:21",
         "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 584,
+        "total_tokens": 1539,
+        "completion_cost": 0.001168,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0026005000000000004,
+        "datetime": "17/06/2023 10:22:23",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 814,
+        "total_tokens": 1769,
+        "completion_cost": 0.001628,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0030605000000000003,
+        "datetime": "17/06/2023 10:26:22",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 800,
+        "total_tokens": 1755,
+        "completion_cost": 0.0016,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0030325000000000005,
+        "datetime": "17/06/2023 10:28:46",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 382,
+        "total_tokens": 1337,
+        "completion_cost": 0.000764,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0021965,
+        "datetime": "17/06/2023 10:32:55",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 554,
+        "total_tokens": 1509,
+        "completion_cost": 0.001108,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0025405000000000002,
+        "datetime": "17/06/2023 10:36:16",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 640,
+        "total_tokens": 1595,
+        "completion_cost": 0.00128,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0027125000000000005,
+        "datetime": "17/06/2023 10:41:16",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 422,
+        "completion_tokens": 143,
+        "total_tokens": 565,
+        "completion_cost": 0.000286,
+        "prompt_cost": 0.000633,
+        "cost": 0.000919,
+        "datetime": "17/06/2023 10:42:14",
+        "description": "grow_seed_title"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 647,
+        "total_tokens": 1602,
+        "completion_cost": 0.001294,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0027265,
+        "datetime": "17/06/2023 10:46:47",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 446,
+        "total_tokens": 1401,
+        "completion_cost": 0.000892,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0023245,
+        "datetime": "17/06/2023 10:46:58",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 522,
+        "total_tokens": 1477,
+        "completion_cost": 0.001044,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0024765000000000004,
+        "datetime": "17/06/2023 10:47:12",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 668,
+        "total_tokens": 1623,
+        "completion_cost": 0.0013360000000000002,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0027685,
+        "datetime": "17/06/2023 10:47:28",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 305,
+        "total_tokens": 1260,
+        "completion_cost": 0.00061,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0020425,
+        "datetime": "17/06/2023 10:47:36",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 957,
+        "completion_tokens": 384,
+        "total_tokens": 1341,
+        "completion_cost": 0.000768,
+        "prompt_cost": 0.0014355,
+        "cost": 0.0022034999999999997,
+        "datetime": "17/06/2023 10:47:46",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 955,
+        "completion_tokens": 506,
+        "total_tokens": 1461,
+        "completion_cost": 0.001012,
+        "prompt_cost": 0.0014325000000000002,
+        "cost": 0.0024445000000000005,
+        "datetime": "17/06/2023 10:47:59",
+        "description": "grow_seed_point"
+    },
+    {
+        "prompt_tokens": 422,
+        "completion_tokens": 151,
+        "total_tokens": 573,
+        "completion_cost": 0.00030199999999999997,
+        "prompt_cost": 0.000633,
+        "cost": 0.000935,
+        "datetime": "17/06/2023 10:48:04",
+        "description": "grow_seed_title"
+    },
+    {
+        "prompt_tokens": 123,
+        "completion_tokens": 487,
+        "total_tokens": 610,
+        "completion_cost": 0.0009739999999999999,
+        "prompt_cost": 0.00018449999999999999,
+        "cost": 0.0011584999999999998,
+        "datetime": "17/06/2023 16:36:25",
+        "description": "generate_seed"
+    },
+    {
+        "prompt_tokens": 1086,
+        "completion_tokens": 538,
+        "total_tokens": 1624,
+        "completion_cost": 0.0010760000000000001,
+        "prompt_cost": 0.001629,
+        "cost": 0.002705,
+        "datetime": "17/06/2023 16:59:35",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1112,
+        "completion_tokens": 845,
+        "total_tokens": 1957,
+        "completion_cost": 0.0016899999999999999,
+        "prompt_cost": 0.001668,
+        "cost": 0.003358,
+        "datetime": "17/06/2023 16:59:57",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1114,
+        "completion_tokens": 704,
+        "total_tokens": 1818,
+        "completion_cost": 0.001408,
+        "prompt_cost": 0.001671,
+        "cost": 0.003079,
+        "datetime": "17/06/2023 17:00:15",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1098,
+        "completion_tokens": 805,
+        "total_tokens": 1903,
+        "completion_cost": 0.00161,
+        "prompt_cost": 0.001647,
+        "cost": 0.0032570000000000003,
+        "datetime": "17/06/2023 17:00:36",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1086,
+        "completion_tokens": 441,
+        "total_tokens": 1527,
+        "completion_cost": 0.000882,
+        "prompt_cost": 0.001629,
+        "cost": 0.002511,
+        "datetime": "17/06/2023 17:00:47",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1120,
+        "completion_tokens": 466,
+        "total_tokens": 1586,
+        "completion_cost": 0.0009320000000000001,
+        "prompt_cost": 0.0016799999999999999,
+        "cost": 0.0026119999999999997,
+        "datetime": "17/06/2023 17:01:00",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1035,
+        "completion_tokens": 137,
+        "total_tokens": 1172,
+        "completion_cost": 0.00027400000000000005,
+        "prompt_cost": 0.0015525,
+        "cost": 0.0018265,
+        "datetime": "17/06/2023 17:01:05",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1086,
+        "completion_tokens": 549,
+        "total_tokens": 1635,
+        "completion_cost": 0.001098,
+        "prompt_cost": 0.001629,
+        "cost": 0.0027270000000000003,
+        "datetime": "17/06/2023 17:12:53",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1112,
+        "completion_tokens": 974,
+        "total_tokens": 2086,
+        "completion_cost": 0.0019479999999999999,
+        "prompt_cost": 0.001668,
+        "cost": 0.003616,
+        "datetime": "17/06/2023 17:13:19",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1114,
+        "completion_tokens": 471,
+        "total_tokens": 1585,
+        "completion_cost": 0.000942,
+        "prompt_cost": 0.001671,
+        "cost": 0.002613,
+        "datetime": "17/06/2023 17:13:31",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1098,
+        "completion_tokens": 682,
+        "total_tokens": 1780,
+        "completion_cost": 0.0013640000000000002,
+        "prompt_cost": 0.001647,
+        "cost": 0.0030110000000000002,
+        "datetime": "17/06/2023 17:13:48",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1086,
+        "completion_tokens": 353,
+        "total_tokens": 1439,
+        "completion_cost": 0.0007059999999999999,
+        "prompt_cost": 0.001629,
+        "cost": 0.002335,
+        "datetime": "17/06/2023 17:13:58",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1120,
+        "completion_tokens": 459,
+        "total_tokens": 1579,
+        "completion_cost": 0.0009180000000000001,
+        "prompt_cost": 0.0016799999999999999,
+        "cost": 0.002598,
+        "datetime": "17/06/2023 17:14:09",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1035,
+        "completion_tokens": 147,
+        "total_tokens": 1182,
+        "completion_cost": 0.000294,
+        "prompt_cost": 0.0015525,
+        "cost": 0.0018465,
+        "datetime": "17/06/2023 17:14:14",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1086,
+        "completion_tokens": 565,
+        "total_tokens": 1651,
+        "completion_cost": 0.0011300000000000001,
+        "prompt_cost": 0.001629,
+        "cost": 0.002759,
+        "datetime": "19/06/2023 10:30:59",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1112,
+        "completion_tokens": 768,
+        "total_tokens": 1880,
+        "completion_cost": 0.001536,
+        "prompt_cost": 0.001668,
+        "cost": 0.0032040000000000003,
+        "datetime": "19/06/2023 10:31:20",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1114,
+        "completion_tokens": 520,
+        "total_tokens": 1634,
+        "completion_cost": 0.0010400000000000001,
+        "prompt_cost": 0.001671,
+        "cost": 0.002711,
+        "datetime": "19/06/2023 10:31:33",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1098,
+        "completion_tokens": 628,
+        "total_tokens": 1726,
+        "completion_cost": 0.001256,
+        "prompt_cost": 0.001647,
+        "cost": 0.002903,
+        "datetime": "19/06/2023 10:31:49",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1086,
+        "completion_tokens": 299,
+        "total_tokens": 1385,
+        "completion_cost": 0.000598,
+        "prompt_cost": 0.001629,
+        "cost": 0.002227,
+        "datetime": "19/06/2023 10:31:57",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1120,
+        "completion_tokens": 522,
+        "total_tokens": 1642,
+        "completion_cost": 0.001044,
+        "prompt_cost": 0.0016799999999999999,
+        "cost": 0.002724,
+        "datetime": "19/06/2023 10:32:10",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1035,
+        "completion_tokens": 159,
+        "total_tokens": 1194,
+        "completion_cost": 0.00031800000000000003,
+        "prompt_cost": 0.0015525,
+        "cost": 0.0018705000000000002,
+        "datetime": "19/06/2023 10:32:15",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 153,
+        "completion_tokens": 498,
+        "total_tokens": 651,
+        "completion_cost": 0.000996,
+        "prompt_cost": 0.00022950000000000002,
+        "cost": 0.0012255,
+        "datetime": "20/06/2023 13:37:09",
+        "description": "generate_seed"
+    },
+    {
+        "prompt_tokens": 1098,
+        "completion_tokens": 548,
+        "total_tokens": 1646,
+        "completion_cost": 0.0010960000000000002,
+        "prompt_cost": 0.001647,
+        "cost": 0.002743,
+        "datetime": "20/06/2023 13:39:23",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1124,
+        "completion_tokens": 1112,
+        "total_tokens": 2236,
+        "completion_cost": 0.0022240000000000003,
+        "prompt_cost": 0.001686,
+        "cost": 0.00391,
+        "datetime": "20/06/2023 13:39:53",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1126,
+        "completion_tokens": 480,
+        "total_tokens": 1606,
+        "completion_cost": 0.0009599999999999999,
+        "prompt_cost": 0.001689,
+        "cost": 0.002649,
+        "datetime": "20/06/2023 13:40:08",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1110,
+        "completion_tokens": 885,
+        "total_tokens": 1995,
+        "completion_cost": 0.00177,
+        "prompt_cost": 0.001665,
+        "cost": 0.003435,
+        "datetime": "20/06/2023 13:40:36",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1098,
+        "completion_tokens": 404,
+        "total_tokens": 1502,
+        "completion_cost": 0.000808,
+        "prompt_cost": 0.001647,
+        "cost": 0.002455,
+        "datetime": "20/06/2023 13:40:48",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1132,
+        "completion_tokens": 499,
+        "total_tokens": 1631,
+        "completion_cost": 0.000998,
+        "prompt_cost": 0.0016979999999999999,
+        "cost": 0.0026959999999999996,
+        "datetime": "20/06/2023 13:41:04",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1047,
+        "completion_tokens": 136,
+        "total_tokens": 1183,
+        "completion_cost": 0.000272,
+        "prompt_cost": 0.0015705,
+        "cost": 0.0018425,
+        "datetime": "20/06/2023 13:41:09",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1049,
+        "completion_tokens": 742,
+        "total_tokens": 1791,
+        "completion_cost": 0.001484,
+        "prompt_cost": 0.0015735,
+        "cost": 0.0030575000000000003,
+        "datetime": "20/06/2023 13:42:23",
+        "description": "chapter_outlines"
+    },
+    {
+        "prompt_tokens": 165,
+        "completion_tokens": 390,
+        "total_tokens": 555,
+        "completion_cost": 0.00078,
+        "prompt_cost": 0.0002475,
+        "cost": 0.0010275,
+        "datetime": "20/06/2023 17:08:25",
+        "description": "generate_seed"
+    },
+    {
+        "prompt_tokens": 990,
+        "completion_tokens": 586,
+        "total_tokens": 1576,
+        "completion_cost": 0.0011719999999999999,
+        "prompt_cost": 0.001485,
+        "cost": 0.0026569999999999996,
+        "datetime": "20/06/2023 17:09:54",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1016,
+        "completion_tokens": 963,
+        "total_tokens": 1979,
+        "completion_cost": 0.001926,
+        "prompt_cost": 0.001524,
+        "cost": 0.00345,
+        "datetime": "20/06/2023 17:10:23",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1018,
+        "completion_tokens": 561,
+        "total_tokens": 1579,
+        "completion_cost": 0.0011220000000000002,
+        "prompt_cost": 0.0015270000000000001,
+        "cost": 0.0026490000000000003,
+        "datetime": "20/06/2023 17:10:41",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1002,
+        "completion_tokens": 601,
+        "total_tokens": 1603,
+        "completion_cost": 0.001202,
+        "prompt_cost": 0.0015030000000000002,
+        "cost": 0.002705,
+        "datetime": "20/06/2023 17:11:01",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 990,
+        "completion_tokens": 352,
+        "total_tokens": 1342,
+        "completion_cost": 0.000704,
+        "prompt_cost": 0.001485,
+        "cost": 0.002189,
+        "datetime": "20/06/2023 17:11:12",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 1024,
+        "completion_tokens": 536,
+        "total_tokens": 1560,
+        "completion_cost": 0.001072,
+        "prompt_cost": 0.001536,
+        "cost": 0.002608,
+        "datetime": "20/06/2023 17:11:29",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 939,
+        "completion_tokens": 235,
+        "total_tokens": 1174,
+        "completion_cost": 0.00047000000000000004,
+        "prompt_cost": 0.0014085,
+        "cost": 0.0018785,
+        "datetime": "20/06/2023 17:11:38",
+        "description": "grow_seed"
+    },
+    {
+        "prompt_tokens": 547,
+        "completion_tokens": 560,
+        "total_tokens": 1107,
+        "completion_cost": 0.0011200000000000001,
+        "prompt_cost": 0.0008205,
+        "cost": 0.0019405000000000002,
+        "datetime": "20/06/2023 17:14:52",
+        "description": "chapter_outlines"
+    },
+    {
+        "prompt_tokens": 547,
+        "completion_tokens": 540,
+        "total_tokens": 1087,
+        "completion_cost": 0.00108,
+        "prompt_cost": 0.0008205,
+        "cost": 0.0019005,
+        "datetime": "20/06/2023 17:15:45",
+        "description": "chapter_outlines"
+    },
+    {
+        "prompt_tokens": 4107,
+        "completion_tokens": 571,
+        "total_tokens": 4678,
+        "completion_cost": 0.0022840000000000004,
+        "prompt_cost": 0.012321,
+        "cost": 0.014605,
+        "datetime": "20/06/2023 19:44:10",
+        "description": "chapter_outlines"
+    },
+    {
+        "prompt_tokens": 4107,
+        "completion_tokens": 680,
+        "total_tokens": 4787,
+        "completion_cost": 0.00272,
+        "prompt_cost": 0.012321,
+        "cost": 0.015041,
+        "datetime": "20/06/2023 19:47:43",
+        "description": "chapter_outlines"
+    },
+    {
+        "prompt_tokens": 4107,
+        "completion_tokens": 787,
+        "total_tokens": 4894,
+        "completion_cost": 0.003148,
+        "prompt_cost": 0.012321,
+        "cost": 0.015469,
+        "datetime": "20/06/2023 19:50:23",
+        "description": "chapter_outlines"
+    },
+    {
+        "prompt_tokens": 853,
+        "completion_tokens": 777,
+        "total_tokens": 1630,
+        "completion_cost": 0.001554,
+        "prompt_cost": 0.0012795,
+        "cost": 0.0028335,
+        "datetime": "20/06/2023 19:51:35",
+        "description": "chapter_outlines"
     }
 ]

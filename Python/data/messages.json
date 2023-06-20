@@ -3,11 +3,11 @@
     [
         {
             "role": "user",
-            "content": "I am an enthusiastic reader, you are a best-selling author, and you are writing the novel that I want to read!"
+            "content": "I am a reader, you are a best-selling author, and you are writing a brilliant novel according to my taste."
         },
         {
             "role": "assistant",
-            "content": "I am happy to be writing a brilliant novel for you. I will try make it the best of my work! A great novel becomes great due to a combination of various elements, each contributing in its own way to the overall impact of the narrative. Here are a few key aspects that make a novel great:\n1. Storytelling: Great novel usually tell compelling stories that captivate readers, keeping them hooked from the first page to the last. The story unfolds in a way that is engaging, suspenseful, and satisfying. The best stories often contain unexpected twists and turns, but also pay off in a way that is emotionally satisfying and meaningful.\n2. Characters: Characters are the heart of any great novel. They need to be well-developed, relatable, and complex. Readers should care about what happens to them. Whether they are likable or not, they must be interesting and have depth. The protagonists should have struggles and weaknesses, as well as virtues and triumphs. The characters should also develop throughout the narrative.\n3. Writing Style: A great novel often has a unique writing style that is both beautiful and effective. This could involve poetic and descriptive language, a distinctive voice, crisp and clear prose, or a unique structure. The writing should evoke emotions and help the reader visualize the story. It is very important that the story is shown and not told.\n4. Themes: Great novels usually tackle important themes or ideas, giving readers something to think about long after they've finished reading. This could involve deep questions about human nature, society, philosophy, or morality.\n5. Originality/Novelty: A great novel brings something new to the table. It could be an original story concept, a unique setting, a fresh perspective, or an innovative structure or style. It is key that a novel presents the reader a deep and truthful narrative that provokes responses of curiosity, awe, meaning and humility.\n6. Emotional Impact: A great book makes the reader feel something. It could be joy, sadness, fear, anticipation, or any number of other emotions. The key is that it engages the reader on an emotional level.\n7. Universal Appeal: While not all great novels appeal to everyone, the best ones tend to have a certain universal quality. They contain truths or experiences that resonate with many different people, regardless of their background or life experiences. Think of canonical texts, such as the bible, as examples of this."
+            "content": "I am happy to be writing a brilliant novel for you. I will try make it the best of my work! A great novel becomes great due to a combination of various elements, each contributing in its own way to the overall impact of the narrative. Here are a few key aspects that make a novel great:\n1. Storytelling: Great novel usually tell compelling stories that captivate readers, keeping them hooked from the first page to the last. The story unfolds in a way that is engaging, suspenseful, and satisfying. The best stories often contain unexpected twists and turns, but also pay off in a way that is emotionally satisfying and meaningful.\n2. Characters: Characters are the heart of any great novel. They need to be well-developed, relatable, and complex. Readers should care about what happens to them. Whether they are likable or not, they must be interesting and have depth. The protagonists should have struggles and weaknesses, as well as virtues and triumphs. The characters should also develop throughout the narrative.\n3. Writing Style: A great novel often has a unique writing style that is both beautiful and effective. This could involve poetic and descriptive language, a distinctive voice, crisp and clear prose, or a unique structure. The writing should evoke emotions and help the reader visualize the story. It is very important that the story is shown rather than told.\n4. Themes: Great novels usually tackle important themes or ideas, giving readers something to think about long after they've finished reading. This could involve deep questions about human nature, society, philosophy, or morality.\n5. Originality/Novelty: A great novel brings something new to the table. It could be an original story concept, a unique setting, a fresh perspective, or an innovative structure or style. It is key that a novel presents the reader a deep and truthful narrative that provokes responses of curiosity, awe, meaning and humility.\n6. Emotional Impact: A great book makes the reader feel something. It could be joy, sadness, fear, anticipation, or any number of other emotions. The key is that it engages the reader on an emotional level.\n7. Universal Appeal: While not all great novels appeal to everyone, the best ones tend to have a certain universal quality. They contain truths or experiences that resonate with many different people, regardless of their background or life experiences. Think of canonical texts, such as the bible, as examples of this."
         }
     ],
 
@@ -19,12 +19,63 @@
         },
         {
             "role": "assistant",
-            "content": "I am excited to help produce a 'seed' of a novel with you in the following format.\nGenre:'', Setting: '', Plot: '', Characters: protaganist: '', antagonist: '', supporting characters: '', point of view: '', themes: '', tone and style '', structure: ''. Tell me your ideas, and I'll fill in the blanks!"
+            "content": "I am excited to help produce a 'seed' of a novel with you in the following format.\nGenre:'', Setting: '', Characters: - protagonist, -antagonist, -supporting characters, Themes: '', Plot: '', Point of view: '', Tone and style ''. Tell me your ideas, and I'll fill in the blanks!"
         }
     ],
 
     "grow_seed":
+
+    {
+        "Setting":
+            { 
+                "role": "user",
+                "content": "Let's keep planning this novel. Please expand upon the setting in great detail, as it will help you with the rest of your writing. Consider where and when the story takes place. This could be a real location or time period, a fictional world, the future, etc. What are some key characteristics of this setting?"
+            }, 
+        "Characters":
+            {
+                "role": "user",
+                "content": "Let's keep planning this novel. Please expand upon the characters in great detail. Consider the following in your response. What are their back stories? What makes them relatable? What are their strengths and weaknesses? What are their goals and motivations? How do they change throughout the story? What are their relationships with each other? What are their personalities like? What are their physical appearances? What are their names? Introduce minor characters too if you like."
+            },
+        "Themes":
+            {
+                "role": "user",
+                "content": "Let's keep planning this novel. Please expand upon the themes in great detail. Consider the following in your response. Is there a problem/idea that can be creatively explored and investigated through this story? What are some of the questions that you want to raise? What are some of the issues that you want to address? What are some of the emotions that you want to evoke? Is the exploration inspired by canonical texts and classic ideas related to Judeo-Christianity?"
+            },
+        "Plot":
+            {
+                "role": "user",
+                "content": "Let's keep planning this novel. Please expand upon the plot in great detail. Consider the following in your response. What is the main conflict or problem that the protagonist faces? How does the story unfold? What are the major events and turning points? Is the plot linear? Or does it inlude flashbacks and/or backstories? How does it all come together in the end?"
+            },
+        "Point of view":
+            {
+                "role": "user",
+                "content": "Let's keep planning this novel. Please expand upon the point of view in great detail. Consider the following in your response. Who is telling the story? Is it told from the perspective of one character, or multiple characters? Is it told in first person or third person? Is it told in past tense or present tense?"
+            },
+        "Tone and style":
+            {
+                "role": "user",
+                "content": "Let's keep planning this novel. Please expand upon the tone and style in great detail. What is the overall mood of the story? Is it serious or humorous? Is it dark or light? Is it fast-paced or slow-paced? Is it poetic or straightforward? Is it descriptive or minimalist? Is it formal or informal? Is it written in a particular dialect or style of speech? How will you use language to create a unique and memorable reading experience? Is it influenced by any existing works?"
+            },
+        "Title":
+            {
+                "role": "user",
+                "content": "Now can you think of some ideas for the title of our novel?"
+            }
+    },
+
+    "plan_chapters":
     [
-        {}
+        {
+            "role": "user",
+            "content" : "Generate a list of chapters for this novel plan below, including their titles and brief summaries.\n"
+        }
+    ],
+
+    "chapter":
+    [
+        {
+            "role": "user",
+            "content" : "Given the basic plan that you've developed, generate a detailed plan for each chapter. Please provide a summary, plot, setting and any other notes or ideas that you have for each chapter. If you wish, you can divide the chapters into passages."
+        }
     ]
 }

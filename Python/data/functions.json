@@ -28,5 +28,32 @@
                 }
             }
         }
+    },
+
+    "plan_chapters" : {
+        "name": "plan_chapters",
+        "description": "plans each chapter from its title and summary",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "titles": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "description": "A chapter title"
+                    },
+                    "description": "list of chapter titles"
+                },
+                "summaries": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "description": "A chapter summary"
+                    },
+                    "description": "list of chapter summaries"
+                }
+            },
+            "required": ["titles", "summaries"]
+        }
     }
 }
