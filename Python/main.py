@@ -38,7 +38,8 @@ class Dream:
         self.seedling = dreams[2]["seedling"]
         self.chapter_outlines = dreams[2]["chapter_outlines"]
         # self.chapter_outlines = self.plan_chapters()
-        self.chapters = self.write_chapters()
+        # self.chapters = self.write_chapters()
+            
 
         pass
 
@@ -58,7 +59,8 @@ class Dream:
                 "What makes a good story? Is there a problem that you'd "
                 "like to explore?\nWhat genre do you like? Are there any "
                 "stories that particularly resonate with you? Do you have "
-                "any ideas when and where the story might be set?\n")
+                "any ideas when and where the story might be set?\n"
+                )
 
             # gets response from chatcompletion
             seed_messages = messages["generate_seed"]
@@ -151,7 +153,7 @@ class Dream:
         return
     
 
-    def plan_chapters(self):
+    def outline_chapters(self):
         """
         creates chapter outlines using the seedling and then creates chapter objects
         """
@@ -201,12 +203,15 @@ class Dream:
 
     def write_chapters(self):
         """
-        creates chapter object for each chapter outline
+        creates chapter objects from outlines
         """
         chapters = []
-        for outline in self.chapter_outlines:
-            chapters.append(Chapter(outline,))
-        
+
+        i = 0
+        for title, summary in self.chapter_outlines:
+            chapters.append(Chapter(self, title, summary))
+            i += 1
+
         return chapters
 
 
@@ -214,23 +219,42 @@ class Dream:
 
 
 
-
 class Chapter:
-    def __init__(self, outline: dict, seedling) -> None:
+    def __init__(self, dream: Dream, title: str, summary: str) -> None:
         """
         initializes the chapter
         """
-        self.seedling = seedling
-        self.chapter_plans = self.plan_chapters(seedling=self.seedling)
+        self.dream = dream
+        self.title = title
+        self.summary = summary
+        self.plan = self.plan_chapter()
+
 
         pass
     
 
-    def plan_chapter():
+    def plan_chapter(self):
         """
         creates chapter plan
         """
+        description = "plan_chapter"
+        plan_chapter_messages = messages["base"]
+        temp = messages["plan_chapter"]
+        temp = temp[0]["content"] + f"\nHere is the chapter outline:\n{self.title}. {self.summary}\n" \
+            f"\nHere are the story details for your reference:\n{tools.dict_to_str(self.dream.seedling)}"
+        tools.append_message(plan_chapter_messages, temp, tools.USER_ROLE)
+        print(plan_chapter_messages)
+
+        (completion, temp) = tools.chat_completion(
+            messages=plan_chapter_messages,
+            description=description,
+            model=tools.MODEL_3_16K
+            )
         
+        self.dream.cost += temp
+
+        return completion
+
         
 
 
@@ -310,6 +334,7 @@ def log_data(data, filename: str):
 
 try:
     myDream = Dream()
+    Chapter(myDream, "Chapter 1: The Orphan's Discovery", "Elara, a curious and resourceful orphan, uncovers a mysterious artifact that awakens her forgotten past and sets her on a journey of self-discovery.")
     tools.log_requests()
     
 except Exception as e:

@@ -71,11 +71,11 @@
         }
     ],
 
-    "chapter":
+    "plan_chapter":
     [
         {
             "role": "user",
-            "content" : "Given the basic plan that you've developed, generate a detailed plan for each chapter. Please provide a summary, plot, setting and any other notes or ideas that you have for each chapter. If you wish, you can divide the chapters into passages."
+            "content" : "Given the basic plan that you've developed, generate a detailed plan for a chapter. Please provide a summary, plot, setting and any other notes or ideas that you have for this chapter. If you wish, you can divide the chapter into passages."
         }
     ]
 }

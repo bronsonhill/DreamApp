@@ -34,10 +34,10 @@ with open("../key.txt", "r") as fp:
 
 
 openai.api_key = key
-request_log = []
+requests = []
 
 
-def log_data(data, filename: str):
+def log_dream_data(data, filename: str):
     """
     logs data
     """
@@ -45,7 +45,7 @@ def log_data(data, filename: str):
     with open(dir, "r") as fp:
         load = json.load(fp)
 
-    load.append(data)
+    load[""] = data
 
     with open(dir, "w") as fp:
         json.dump(load, fp, indent=4)
@@ -83,7 +83,6 @@ def chat_completion(messages: list, function = None, description = "", model = M
 
         return (json.loads(completion["choices"][0]["message"].to_dict()["function_call"]["arguments"]),
                 cost_calculation(completion["usage"], description))
-
 
 
 def append_message(messages: list, content: str, role: str):
@@ -143,14 +142,15 @@ def log_requests():
     
 
     with open("Python/data/request_log.json", "r") as fp:
-        requests = json.load(fp)
+        load = json.load(fp)
         
-    requests += request_log
+    load += requests
 
-    json.dump(requests, open("Python/data/request_log.json", "w"), indent=4)
+    json.dump(load, open("Python/data/request_log.json", "w"), indent=4)
 
 
     return
+
 
 def dict_to_str(dict: dict) -> str:
     """
