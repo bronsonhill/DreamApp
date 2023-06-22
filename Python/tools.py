@@ -7,12 +7,15 @@ from datetime import datetime
 MODEL_3_4K = "gpt-3.5-turbo-0613"
 INPUT_COST_P_1000 = 0.0015
 OUTPUT_COST_P_1000 = 0.002
-CONTEXT_THRESHOLD = 4000
+MODEL_THRESHOLD = 4000
+EXPECTED_COMPLETION_TOKENS = 1200
 
 # gpt-3.5-turbo 16k context
 MODEL_3_16K = "gpt-3.5-turbo-16k"
 INPUT_COST_P_1000_16K = 0.003
 OUTPUT_COST_P_1000_16K = 0.004
+
+LINE_BREAK = "--------------------------------------------------------------"
 
 # gpt-4 8k context
 # MODEL = "gpt-4"
@@ -53,13 +56,15 @@ def log_dream_data(data, filename: str):
     return
 
 
-def chat_completion(messages: list, function = None, description = "", model = MODEL_3_4K) -> dict:
+def chat_completion(messages: list, function = None, description = "", model = None) -> dict:
     """
     completes the chat
     :param messages: messages list of openai format
     :param max_tokens: max tokens to be used for completion
     :param stop: stop list of openai format
     """
+    if model is None:
+        model = get_model(messages)
 
     if not function:
     
@@ -109,7 +114,7 @@ def cost_calculation(usage: dict, description: str) -> float:
     :param usage: usage dict of openai format
     """
 
-    if usage["total_tokens"] > CONTEXT_THRESHOLD:
+    if usage["total_tokens"] > MODEL_THRESHOLD:
         output_cost = OUTPUT_COST_P_1000_16K
         input_cost = INPUT_COST_P_1000_16K
     else: 
@@ -122,7 +127,7 @@ def cost_calculation(usage: dict, description: str) -> float:
     usage["datetime"] = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     usage["description"] = description
 
-    request_log.append(usage)
+    requests.append(usage)
     
 
     return usage["cost"]
@@ -161,3 +166,25 @@ def dict_to_str(dict: dict) -> str:
         str += key + ": " + value + "\n\n"
 
     return str
+
+
+def get_model(messages: list):
+    """
+    estimates tokens
+    """
+    estimate = 0
+
+    for message in messages:
+        estimate += len(message["content"].split(" "))
+    
+    print("Estimated tokens: ", estimate)
+
+    # model threshold by two to leave tokens for the completion
+    if estimate < (MODEL_THRESHOLD - EXPECTED_COMPLETION_TOKENS):
+        print("Using ", MODEL_3_4K)
+        return MODEL_3_4K
+    else:
+        print("Using ", MODEL_3_16K)
+        return MODEL_3_16K
+    
+    return
