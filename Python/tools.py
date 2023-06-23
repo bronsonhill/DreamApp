@@ -230,10 +230,10 @@ def dream_to_md(dream, depth = 1):
     txt = ""
     if type(dream) == dict:
         for key, value in dream.items():
-            txt += header + key + ":\n" + dream_to_txt(value, depth+1)
+            txt += header + key + ":\n" + dream_to_md(value, depth+1)
     elif type(dream) == list:
         for item in dream:
-            txt += dream_to_txt(item, depth) + "\n"
+            txt += dream_to_md(item, depth) + "\n"
     else:
         txt += dream + "\n"
 
