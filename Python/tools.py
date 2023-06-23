@@ -1,4 +1,5 @@
 import json
+from os.path import isfile
 import openai
 from datetime import datetime
 
@@ -35,6 +36,11 @@ AI_ROLE = "assistant"
 with open("../key.txt", "r") as fp:
     key = fp.read()
 
+# open messages.txt and save the messages
+with open("Python/data/messages.json", "r") as fp:
+    messages = json.load(fp)
+
+
 
 openai.api_key = key
 requests = []
@@ -56,7 +62,7 @@ def log_dream_data(data, filename: str):
     return
 
 
-def chat_completion(messages: list, function = None, description = "", model = None) -> dict:
+def chat_completion(messages: list, function = None, description = "", model = None, expected_length=EXPECTED_COMPLETION_TOKENS) -> dict:
     """
     completes the chat
     :param messages: messages list of openai format
@@ -64,7 +70,7 @@ def chat_completion(messages: list, function = None, description = "", model = N
     :param stop: stop list of openai format
     """
     if model is None:
-        model = get_model(messages)
+        model = get_model(messages, expected_length)
 
     if not function:
     
@@ -168,7 +174,7 @@ def dict_to_str(dict: dict) -> str:
     return str
 
 
-def get_model(messages: list):
+def get_model(messages: list, expected_completion_tokens = EXPECTED_COMPLETION_TOKENS):
     """
     estimates tokens
     """
@@ -180,7 +186,7 @@ def get_model(messages: list):
     print("Estimated tokens: ", estimate)
 
     # model threshold by two to leave tokens for the completion
-    if estimate < (MODEL_THRESHOLD - EXPECTED_COMPLETION_TOKENS):
+    if estimate < (MODEL_THRESHOLD - expected_completion_tokens):
         print("Using ", MODEL_3_4K)
         return MODEL_3_4K
     else:
@@ -188,3 +194,57 @@ def get_model(messages: list):
         return MODEL_3_16K
     
     return
+
+
+def dream_to_txt(dream: dict, depth = 0) -> str:
+    """
+    converts dream to txt. Recurses when value is of type dict
+    """
+    txt = ""
+    if type(dream) == dict:
+        for key, value in dream.items():
+            txt += key + ":\n" + dream_to_txt(value, depth+1)
+    elif type(dream) == list:
+        for item in dream:
+            txt += dream_to_txt(item, depth) + "\n"
+    else:
+        txt += dream + "\n"
+
+    if depth == 0:
+        # tests if file already exists with os.path.isfile
+        if not isfile("output.txt"):
+            with open("output.txt", "w") as fp:
+                fp.write(txt)
+        else:
+            print("Error. Filename already exists")
+
+
+    return txt
+
+
+def dream_to_md(dream, depth = 1):
+    """
+    converts dream to md
+    """
+    header = "#" * depth + " "
+    txt = ""
+    if type(dream) == dict:
+        for key, value in dream.items():
+            txt += header + key + ":\n" + dream_to_txt(value, depth+1)
+    elif type(dream) == list:
+        for item in dream:
+            txt += dream_to_txt(item, depth) + "\n"
+    else:
+        txt += dream + "\n"
+
+    if depth == 1:
+        # tests if file already exists with os.path.isfile
+        if not isfile("output.md"):
+            with open("output.md", "w") as fp:
+                fp.write(txt)
+        else:
+            print("Error. Filename already exists")
+
+
+    return
+
