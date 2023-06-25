@@ -4,3 +4,12 @@ AI capabilities have taken an unexpected turn in the direction of art. What was 
 
 ## Service
 The form of the book has not changed signicantly since its inception, but this is about to change with the advent of AI-enabled DreamApp. DreamApp utilises AI technology to create a deeply personalised narrative for their users, making reading more interactive, accessible and engaging. DreamApp takes user preferences and inputs to create a novel that is comprehensible and interesting to the reader. This experience can also be shared with friends and community, essentially producing a decentralised narrative.
+
+## Product Market Fit
+
+## Ambitious Vision
+
+## Business model]
+
+## Growth strategy
+
